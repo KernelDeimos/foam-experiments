@@ -1,6 +1,6 @@
 p({
     class:"foam.nanos.auth.Group",
-    id:"ericdube-anonymous",
+    id:"userspaceos-anonymous",
     description:"anonymous group",
     parent:"anonymous"
 })

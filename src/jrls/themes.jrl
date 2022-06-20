@@ -1,11 +1,11 @@
 p({
     class: 'foam.nanos.theme.Theme',
     id: '795fcabd-3d4d-42f5-a9ef-e1fe52892b91',
-    name: 'ericdube',
-    spid: 'ericdube',
-    appName: 'EricDube.com',
+    name: 'userspaceos',
+    spid: 'userspaceos',
+    appName: 'Userspace OS',
     description: '',
-    defaultMenu: 'ericdube.home',
+    defaultMenu: 'userspaceos.home',
     appConfig: {
         class: 'foam.nanos.app.AppConfig',
         url: 'http://localhost:8080',

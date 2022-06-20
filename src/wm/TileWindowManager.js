@@ -177,6 +177,11 @@ foam.CLASS({
             of: 'com.ericdube.wm.InputMode',
             name: 'inputMode',
             value: com.ericdube.wm.InputMode.NORMAL
+        },
+        {
+            class: 'String',
+            name: 'title',
+            value: 'Userspace OS'
         }
     ],
 
@@ -193,7 +198,7 @@ foam.CLASS({
                 .addClass()
                 .start()
                     .addClass(this.myClass('header'))
-                    .add('ericdube.com')
+                    .add(this.title$)
                     .start()
                         .addClass(this.myClass('modeIndicator'))
                         .add(this.inputMode$.map(mode => mode.label))

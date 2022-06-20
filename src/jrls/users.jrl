@@ -20,7 +20,7 @@ p({
 p({
   "class":"foam.nanos.auth.User",
   "id":21337,
-  spid: 'ericdube',
+  spid: 'userspaceos',
   "lifecycleState":1,
   "firstName":"guest",
   "middleName":"",
@@ -30,7 +30,7 @@ p({
   "birthday":"1982-07-07T23:12:00.0Z",
   "address":{"class":"foam.nanos.auth.Address","type":"","verified":false,"deleted":false,"structured":true,"address1":"","address2":"","suite":"300","city":"Toronto","postalCode":"M6G2H3","countryId":"CA","regionId":"ON","encrypted":false,"latitude":43.68018341064453,"longitude":-79.4206314086914,"streetNumber":"","streetName":"","hours":[{"class":"foam.time.Hours","day":0,"open":true},{"class":"foam.time.Hours","day":1,"open":true},{"class":"foam.time.Hours","day":2,"open":true},{"class":"foam.time.Hours","day":3,"open":true},{"class":"foam.time.Hours","day":4,"open":true},{"class":"foam.time.Hours","day":5,"open":true},{"class":"foam.time.Hours","day":6,"open":true}]},
   "password": "71sv9ju5I2g=:UBxxSvPiLJkWo+tWzWPQP7psNadBMcPPMmgGOM9p4nhYpiKBmD2kIpiIe2T0lhg6B2Ygq9YhrBJq1KPGph+YRQ==",
-  "group":"ericdube-anonymous",
+  "group":"userspaceos-anonymous",
   "emailVerified":true,
   "status":2,
   "compliance":1,

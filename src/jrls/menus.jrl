@@ -1,6 +1,6 @@
 p({
   class: "foam.nanos.menu.Menu",
-  id: "ericdube.home",
+  id: "userspaceos.home",
   label: "Home",
   authenticate: false,
   handler: {

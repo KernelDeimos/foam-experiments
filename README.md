@@ -20,6 +20,8 @@ node node_modules/foam3/tools/foobar
 ./run.sh
 ```
 
+Then go to `http://localhost:8080#userspaceos.home`
+
 Note: run will be moved to foobar in the future.
 
 
@@ -27,8 +29,8 @@ Note: run will be moved to foobar in the future.
 
 ### /src/jrls
 
-- a spid called ericdube (going to rename it - haven't yet)
-- a menu called ericdube.home which launches the tiling window manager
+- a spid called userspaceos (going to rename it - haven't yet)
+- a menu called userspaceos.home which launches the tiling window manager
   - the menu also specifies the "default app" of the WM, which is the terminal
 
 ### src/lang
