@@ -1,0 +1,12 @@
+p({
+  class:"foam.nanos.auth.ServiceProvider",
+  id:"ericdube",
+  description:"ericdube spid",
+  enabled:true,
+  anonymousUser: 21337,
+  permissionsGranted:[
+    "language.read.en-",
+    "language.read.en-US",
+    "menu.read.ericdube.home"
+  ]
+})

@@ -1,0 +1,13 @@
+p({
+  class: "foam.nanos.menu.Menu",
+  id: "ericdube.home",
+  label: "Home",
+  authenticate: false,
+  handler: {
+    class: "foam.nanos.menu.ViewMenu",
+    view:{
+        class: 'com.ericdube.wm.TileWindowManager',
+        defaultApp: 'com.ericdube.coreapps.terminal.Terminal'
+    }
+  }
+})

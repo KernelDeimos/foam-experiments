@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply from: 'dependencies.gradle'
+
+sourceSets {
+    main {
+        java {
+            srcDirs = [
+                    "$rootDir/node_modules/foam3/src",
+                    "$rootDir/build/src/java"
+            ]
+            exclude "com/chrome/**"
+            exclude "foam/nanos/tomcat/**"
+            exclude "foam/dao/DatastoreDAO.java"
+        }
+    }
+}
+
+task copyLib(type: Copy) {
+    duplicatesStrategy = DuplicatesStrategy.FAIL
+    from configurations.runtimeClasspath
+    into "${project.targetDir}/lib"
+}
+
+compileJava {
+    dependsOn tasks.copyLib
+}

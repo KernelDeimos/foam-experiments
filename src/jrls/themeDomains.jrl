@@ -1,0 +1,5 @@
+p({
+  class: "foam.nanos.theme.ThemeDomain",
+  id: "localhost",
+  theme: "795fcabd-3d4d-42f5-a9ef-e1fe52892b91"
+})

@@ -1,0 +1,15 @@
+{
+  "name": "0002-website-styles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "foam3": "github:kgrgreer/foam3#NP-7064/PureNodeBuild",
+    "uglify-js": "^3.16.0"
+  }
+}
